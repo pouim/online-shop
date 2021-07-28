@@ -1,0 +1,17 @@
+.menu:hover {
+    background-color: none;
+}
+.menu:visited {
+    background-color: none;
+}
+
+.menuContainer {
+    .k-group, .k-menu-group, .k-reset{
+        background-color: red !important;
+    }
+
+    .k-menu-group{
+        margin-top: 200px;
+    }
+}
+

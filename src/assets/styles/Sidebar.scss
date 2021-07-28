@@ -1,0 +1,17 @@
+// Your variable overrides
+$sidebar-bg-color:#edf1fe;
+$sidebar-color: #000 !default;
+$sidebar-width: 270px !default;
+$sidebar-collapsed-width: 80px !default;
+$highlight-color: #000 !default;
+$submenu-bg-color: #edf1fe !default;
+$submenu-bg-color-collapsed: #edf1fe !default;
+$icon-bg-color: #edf1fe !default;
+$icon-size: 35px !default;
+$breakpoint-xs: 480px !default;
+$breakpoint-sm: 576px !default;
+$breakpoint-md: 768px !default;
+$breakpoint-lg: 992px !default;
+$breakpoint-xl: 1200px !default;
+
+@import '~react-pro-sidebar/dist/scss/styles.scss';

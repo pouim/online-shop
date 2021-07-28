@@ -1,0 +1,12 @@
+[
+  {
+    "text": "محصولات",
+    "items": [
+      { "text": "Item1.1" },
+      {
+        "text": "Item1.2",
+        "items": [{ "text": "Item1.2.1", "url": "/shop" }, { "text": "Item1.2.2" }]
+      }
+    ]
+  }
+]

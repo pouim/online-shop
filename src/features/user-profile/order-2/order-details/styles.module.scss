@@ -1,0 +1,30 @@
+.orderDetailsTable {
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 200px;
+}
+
+
+.orderDetailsTable::-webkit-scrollbar {
+    display: block;
+    width: 5px;
+}
+.orderDetailsTable::-webkit-scrollbar-track {
+    background: transparent;
+}
+    
+.orderDetailsTable::-webkit-scrollbar-thumb {
+    background-color: rgba(99,124,255, 0.5);
+    border-right: none;
+    border-left: none;
+}
+
+.orderDetailsTable::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px; 
+}
+
+.orderDetailsTable::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 10px;
+}

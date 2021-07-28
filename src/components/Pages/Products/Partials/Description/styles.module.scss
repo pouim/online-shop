@@ -1,0 +1,77 @@
+
+
+.tab-content {
+	// border: 1px solid #dadada;
+	margin-top: 1rem;
+	// border-radius: .3rem;
+
+	.tab-pane {
+		position: relative;
+		margin: 2rem;
+	}
+}
+
+
+.tabItem {
+    color: #516EFF; border-bottom-color: #516EFF;
+}
+
+.specRightBox {
+	background-color: #F5F5F5;
+	border-radius: 1.1rem;
+	width: 2.5vw;
+
+
+}
+
+.specLeftBox {
+	background-color: #F5F5F5;
+	border-radius: 1.1rem;
+	// width: 5rem;
+	width: 5vw;
+
+	margin-right: 2rem;
+
+}
+
+.label {
+	font-size: 22px;
+}
+
+.productSpecification {
+	font-size: 20px;
+}
+
+.productSpecificationDesc {
+	// background-color: #ffffff;
+}
+.specBox {
+	background-color:  #F5F5F5;
+}
+
+.newCommentContainer {
+	width: 60%;
+}
+
+
+@media screen and (max-width: 450px) {
+	.label {
+		font-size: 21px;
+	}
+	.newCommentContainer {
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 575px) {
+
+	.specBox {
+		background-color:  #d9d9d9;
+	}
+	.newCommentContainer {
+		width: 100%;
+	}
+}
+
+

@@ -1,0 +1,21 @@
+.wrapper {
+    background-color: white;
+    border-radius: .9rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.imageWrapper {
+    text-align: center;
+}
+
+.imageBox {
+    width: 140px;
+    height: 140px; 
+}
+
+@media screen and (min-width: 576px) {
+    .imageBox {
+        width: 70px;
+        height: 70px; 
+    }
+}

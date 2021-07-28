@@ -1,0 +1,67 @@
+.container {
+    background: linear-gradient(#516EFF, #9ea4fc);
+    margin-left: 140px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    color: #77798C;
+    height: 300px;
+    border-radius: 10%;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+
+    h1 {
+        text-align: center;
+        color: #77798C;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+           -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+             -o-transform: rotate(45deg);
+    }
+    h2 {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+           -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+             -o-transform: rotate(45deg);
+    }
+    h3 {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+           -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+             -o-transform: rotate(45deg);
+    }
+    h4 {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+           -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+             -o-transform: rotate(45deg);
+    }
+    h5 {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+           -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+             -o-transform: rotate(45deg);
+    }
+}
+
+.certificatedIcons {
+    width: 78PX;
+    height: 80PX;
+}
+
+
+// @media screen and (max-width: 450px) {
+//     .certificatedIcons {
+//         width: 78PX;
+//         height: 80PX;
+//     }
+// }

@@ -1,0 +1,19 @@
+.rating span {
+ color: #f0c040;
+ margin: 0.1rem;
+}
+.rating span:last-child {
+  color:  rgba(64,64,64, 0.3);
+  /* margin-left: 1rem; */
+  font-style: italic;
+}
+
+.rating i {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 450px) {
+  .rating i {
+    font-size: .7rem;
+  }
+}

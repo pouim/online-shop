@@ -1,0 +1,36 @@
+.cat-block-title {
+    text-align: center;
+    color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: .1rem;
+	margin-top: 2rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.popItem {
+    transition-duration: 500ms;
+    transition-delay: 50ms;
+    cursor: pointer;
+    height: 120px;
+    width: 120px; 
+}
+
+.popItem:hover {
+    transform: translate(0, -20px);
+    -webkit-box-reflect: below 7px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.2)));
+}
+
+@media screen and (max-width: 450px) {
+   .popItem {
+       height: 60px;
+       width: 60px;
+   }
+
+   .cat-block-title {
+       font-size: 15.5px;
+   }
+}
+
+

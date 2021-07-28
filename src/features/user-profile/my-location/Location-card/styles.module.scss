@@ -1,0 +1,34 @@
+.wrapper {
+    background-color: white;
+    border-radius: .3rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.wrapper:hover {
+    transition: 1s ease ;
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+    .EditDeleteIconWrapper {
+        opacity: 1;
+        transition: 1s ease; 
+    }
+}
+
+.EditDeleteIconButton {
+    cursor: pointer;
+}
+
+.EditDeleteIconWrapper {
+    opacity: 0;
+    transition: 0s;
+}
+
+.locationInfoTitle {
+    font-size: 8.2px;
+}
+
+@media screen and (min-width: 370px) {
+    .locationInfoTitle {
+        font-size: 15px ;
+    }
+}
+

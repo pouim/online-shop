@@ -1,0 +1,80 @@
+.wrapper {
+    background-color: white;
+    border-radius: .9rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: scroll ;
+    max-height: 300px;
+}
+
+.wrapper::-webkit-scrollbar {
+    display: block;
+    width: 5px;
+}
+.wrapper::-webkit-scrollbar-track {
+    background: transparent;
+}
+    
+.wrapper::-webkit-scrollbar-thumb {
+    background-color: rgba(99,124,255, 0.5);
+    border-right: none;
+    border-left: none;
+}
+
+.wrapper::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px; 
+}
+
+.wrapper::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 10px;
+}
+
+
+.orderStateBox {
+    font-size: .7rem;
+    background-color: #69D323;
+    padding: 0 .8rem;
+    border-radius: .9rem;
+    color: #ffffff;
+}
+
+.imageBox {
+    width: 90px;
+    height: 50px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.colorCircle {
+    width: 14px;
+    height: 14px;
+    background-color: red;
+    border-radius: 2rem;
+}
+
+.orderCartContainer {
+    width: 100%;
+    padding: 5px;
+    border-bottom: 0.01rem solid rgba(99,124,255, 0.5);
+}
+
+@media screen and (max-width: 574px) {
+    .imageBox {
+        width: 100px;
+        height: 100px;
+    
+    }
+    .imageWrapper {
+        text-align: center;
+    }
+
+    .title {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 12px;
+    }
+}
